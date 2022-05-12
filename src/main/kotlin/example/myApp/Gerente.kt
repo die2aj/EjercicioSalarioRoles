@@ -1,6 +1,6 @@
 package example.myApp
 
-class Gerente:HorasYGananciasTrabajadas(),Roles{
+class Gerente:HorasYGananciasTrabajadas,Roles{
     override var bonus = 0
     override var gananciasXHora = 200
     override var horasTrabajadas = 200

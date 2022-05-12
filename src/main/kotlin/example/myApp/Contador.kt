@@ -1,6 +1,6 @@
 package example.myApp
 
-class Contador: HorasYGananciasTrabajadas(),Roles {
+class Contador: HorasYGananciasTrabajadas,Roles {
     override var bonus = 0
     override var gananciasXHora = 50
     override var horasTrabajadas = 200
